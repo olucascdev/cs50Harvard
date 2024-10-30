@@ -1,8 +1,9 @@
+#include <stdio.h>
+#include <cs50.h>
 
-
-
-int main(int argc, char const *argv[])
+int main(void)
 {
-    printf("Ola, Mundo");
-    return 0;
+    string answer = get_string("What's your name?");
+    printf("Hello, %s", answer);
+    
 }
